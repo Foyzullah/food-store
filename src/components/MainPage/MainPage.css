@@ -1,0 +1,63 @@
+.logo h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 0;
+  border: 1px solid;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 2px;
+}
+
+.logo h3 span {
+  color: darkcyan;
+}
+
+ul.mainmenue {
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+  text-align: right;
+}
+
+ul.mainmenue li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+ul.mainmenue li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: darkcyan;
+}
+
+.heade-top {
+  border-bottom: 1px solid;
+  padding: 20px 0;
+  margin-bottom: 50px;
+}
+
+.single-food-item .foodImg img {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.single-food-item {
+  margin-bottom: 20px;
+  height: 450px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 30px #f4eee8;
+  padding: 30px;
+}
+.card-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p.price {
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+}
